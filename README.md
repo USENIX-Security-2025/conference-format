@@ -1,5 +1,7 @@
 # USENIX Security 2025 Conference Format
 
+Version 1.1
+
 ## Summary
 
 The 2025 edition of USENIX Security will implement a new approach to presenting accepted papers and fostering interactions at the conference. Some accepted papers will be presented as longer talks, tentatively set to 15 minutes; others will be shorter presentations, between one-half and one minute long. Accepted papers will additionally be presented as posters, during thematically organized discussion sessions that will run in parallel with talk sessions. Finally, authors of accepted papers will be invited to upload pre-recorded 15-to-20-minute video presentations, which will be published on the USENIX Security website.
@@ -66,7 +68,7 @@ For USENIX Security 2025 we explored a range of options for paper presentation t
         - Fairness. All papers, regardless of topic, seniority of authors, etc., have a chance to be selected for longer talks.
     * *Main disadvantages*:
         - Particularly excellent papers may not get longer talks, which could be detrimental to scientific discourse or harm the audience’s experience.
-3. Except for distinguished papers (i.e., those winning distinguished paper awards), all  longer talks are selected at random from among all accepted papers; distinguished papers are guaranteed longer talks.
+3. Except for distinguished papers (i.e., those winning distinguished paper awards), all longer talks are selected at random from among all accepted papers; distinguished papers are guaranteed longer talks.
     * *Main advantages*:
         - Ensures papers that the PC identified as noteworthy are presented via longer talks.
         - Fairer than other options that involve two talk lengths. 
@@ -107,34 +109,61 @@ Several additional options were suggested by the community as potential alternat
 We encourage you to share your feedback with us through [GitHub issues](https://github.com/USENIX-Security-2025/conference-format/issues) or anonymously through [this Google Form](https://forms.gle/kAWLsgYPU7UEDYE29). We will regularly update the FAQ section with concerns and suggestions that are frequently shared or of broad relevance. We invite you to consult the FAQ first, as it may already address your feedback. 
 
 # FAQ
-* Q: **What process was used to decide what the new format should be?**
+
+### Q: **What process was used to decide what the new format should be?**
 
   A: The plan was informed by extensive discussions that involved the USENIX Security steering committee, the USENIX Security ‘25 program co-chairs, program chairs and co-chairs of other top security conferences, and organizers of conferences in other fields. Based on the data collected, the program co-chairs proposed an initial plan, which was then iteratively improved via feedback from the USENIX Security steering committee and early feedback from the USENIX Security community (i.e., potential attendees). The revised plan was approved by the USENIX Security steering committee.
 
 
-* Q: **Can authors opt out of presenting (assuming their paper isn’t a distinguished paper)?**
+### Q: **Can authors opt out of presenting (assuming their paper isn’t a distinguished paper)?**
 
   A: At least one author per paper must participate in the discussion track, in person. The possibility for some authors to opt out of providing a talk or poster, with approval from the organizers, is under discussion.
 
 
-* Q: **Will papers be selected uniformly at random for presentation via longer talks, or will a different type of random choice be used?**
+### Q: **Will papers be selected uniformly at random for presentation via longer talks, or will a different type of random choice be used?**
 
   A: This is under discussion. Selection may be uniformly random or weighted random, e.g., based on audience interest in topics during the previous iteration of the conference. If we do use weighting, we will ensure that the weighting doesn’t significantly reduce the chance of any one paper being selected for a longer talk compared to uniform random selection. 
 
 
-* Q: **If a paper was submitted to the 2024 submission timeline and received a major revision decision and is accepted to 2025, what presentation rules and format will it fall under?**
+### Q: **If a paper was submitted to the 2024 submission timeline and received a major revision decision and is accepted to 2025, what presentation rules and format will it fall under?**
   
   A: Such a paper would fall under 2025 rules for presentation.
 
 
-* Q: **Can authors submit recordings of shorter talks in lieu of giving them live?**
+### Q: **Can authors submit recordings of shorter talks in lieu of giving them live?**
   
   A: We are considering whether it is logistically feasible for USENIX Security to support a combination of live and recorded shorter talks. If recorded shorter talks are supported, authors will still be required to present their paper via posters in person.
 
 
-* Q: **How will USENIX Security distinguish between posters (for accepted papers) and posters (for works-in-progress works and other non-peer-reviewed posters)?**
+### Q: **How will USENIX Security distinguish between posters (for accepted papers) and posters (for works-in-progress works and other non-peer-reviewed posters)?**
   
   A: The details are still under discussion, but our goal is to keep these clearly separate in both reality and perception. Posters representing unpublished work may be required to include “Work in progress:” in the title, for example.
   
-## Other resources
+### Q: **What specific problem is the current conference format proposal trying to solve? Is it necessary to change? Could you explore conference format options that are fundamentally different?**
+
+  A: Several factors drove the need for a new conference format, including that scaling the traditional format to match the number of accepted papers isn’t financially feasible. A particular challenge, both financially and logistically, with the traditional format is the large number of paper presentation tracks.
+
+  Here’s the definition of the immediate problem the new conference format is trying to solve:
+
+  Supposing that USENIX Security ’25 will have:
+  1) three technical talk tracks over three days,
+  2) a paper acceptance rate similar to that of recent previous conferences, and
+  3) a format as similar to that of recent previous conferences as #1 and #2 permit,
+  
+  How do we arrange the presentation of papers to fit the available time while keeping in mind considerations and constraints related to outreach, fairness, quality, and logistics?
+
+  Suppositions 1-3 are arrived at by a number of factors, including having to do with finances, mitigating the risks of conference formats that haven’t been tried or that USENIX has less experience supporting, the timelines for contracting space and releasing the call for papers, and other resource constraints. 
+
+  We welcome suggestions about how to change the conference format more comprehensively, including what the goals of conferences should be, what specific events and activities should take place at the conference, etc. A fundamentally different conference format is unlikely to be implemented for USENIX Security ’25, but novel ideas and proposals could help shape future conferences.
+
+
+# Changelog
+
+| Version     | Date        | Description         |
+|-------------|-------------|----------------------|
+| 1.0         | Apr 2, 2024 | Release              |
+| 1.1         | Apr 9, 2024 | Added item to FAQ    |
+
+
+# Other resources
 * The 2023 USENIX Annual Meeting Report: https://www.usenix.org/blog/2023-usenix-annual-meeting-report 
